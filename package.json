@@ -1,0 +1,35 @@
+{
+  "name": "int-encoder",
+  "description": "a simple utitlity to encode and decode ints from a predefined alphabet",
+  "version": "0.1.0",
+  "homepage": "https://github.com/alanclarke/int-encoder",
+  "author": {
+    "name": "alan clarke",
+    "email": "hi@alz.so",
+    "url": "alz.so"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanclarke/int-encoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanclarke/int-encoder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alanclarke/int-encoder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/int-encoder",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.11"
+  },
+  "keywords": []
+}

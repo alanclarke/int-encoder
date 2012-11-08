@@ -2,6 +2,15 @@
 
 a simple utitlity to encode and decode ints from a predefined alphabet
 
+some good uses of this utility include:
+
+- reducing the number of characters required to express a numerical value
+- interpreting numerical values expressed in unconventional bases/alphabets
+
+some bad uses of this utility include:
+- number obfuscation
+
+
 ## Getting Started
 Install the module with: `npm install int-encoder`
 

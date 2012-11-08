@@ -51,6 +51,10 @@ exports['encode'] = {
       int_encoder.decode('(*)&^*&(^');
     }, Error, 'decode should only accept strings made of defined alphabet');
 
+    test.throws(function(){
+      int_encoder.alphabet('aa');
+    }, Error, 'each char in alphabet must be unique');
+
     test.done();
   }
 };

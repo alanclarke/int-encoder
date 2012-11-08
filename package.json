@@ -1,7 +1,7 @@
 {
   "name": "int-encoder",
   "description": "a simple utitlity to encode and decode ints from a predefined alphabet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/alanclarke/int-encoder",
   "author": {
     "name": "alan clarke",
@@ -29,7 +29,8 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.3.11"
+    "grunt": "~0.3.11",
+    "bignum": "*"
   },
   "keywords": []
 }

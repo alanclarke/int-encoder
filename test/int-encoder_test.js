@@ -35,6 +35,13 @@ exports['encode'] = {
       test.ok( i.toString().length >= encoded.toString().length, 'encoded string is equal to or longer than int' );
       test.equal(i,int_encoder.decode(encoded),'decoded string is same as input');
     });
+
+    var hex = 'e6c6b53d3c8160b22dad35a0f705ec09', encoded_hex = int_encoder.encode(hex,16);
+
+    test.equal(encoded_hex,'hbDcW9aE89tzLYjDgyzajJ', 'should encode large hex values');
+    
+    test.equal(int_encoder.decode(encoded_hex, 16),'e6c6b53d3c8160b22dad35a0f705ec09',  'should decode large hex values');
+    
     test.done();
   },
   'errors':function(test){

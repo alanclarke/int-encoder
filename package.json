@@ -28,9 +28,11 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies":{
+     "bignum":"*"
+  },
   "devDependencies": {
-    "grunt": "~0.3.11",
-    "bignum": "*"
+    "grunt": "~0.3.11"
   },
   "keywords": []
 }

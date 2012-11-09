@@ -33,7 +33,7 @@ int_encoder.alphabet() // 0123456789abcdef
 
 //convert big hex number using optional base argument
 int_encoder.encode('e6c6b53d3c8160b22dad35a0f705ec09', 16); // 'hbDcW9aE89tzLYjDgyzajJ'
-int_encoder.decode('e6c6b53d3c8160b22dad35a0f705ec09', 16); // 'e6c6b53d3c8160b22dad35a0f705ec09'
+int_encoder.decode('hbDcW9aE89tzLYjDgyzajJ', 16); // 'e6c6b53d3c8160b22dad35a0f705ec09'
 
 ```
 

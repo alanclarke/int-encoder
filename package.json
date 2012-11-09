@@ -1,7 +1,7 @@
 {
   "name": "int-encoder",
   "description": "a simple utitlity to encode and decode ints from a predefined alphabet",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/alanclarke/int-encoder",
   "author": {
     "name": "alan clarke",

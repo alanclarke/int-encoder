@@ -19,7 +19,7 @@ var int_encoder = require('../lib/int-encoder.js');
     test.doesNotThrow(block, [error], [message])
     test.ifError(value)
 */
-
+int_encoder.alphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
 
 exports['encode'] = {
   setUp: function(done) {

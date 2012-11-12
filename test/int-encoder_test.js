@@ -62,6 +62,11 @@ exports['encode'] = {
       int_encoder.alphabet('aa');
     }, Error, 'each char in alphabet must be unique');
 
+
+    test.doesNotThrow(function(){
+      int_encoder.alphabet('abcdefghijkl-m');
+      int_encoder.decode('-');
+    }, Error, 'dash character should be allowed if in alphabet')
     test.done();
   }
 };

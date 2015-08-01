@@ -17,7 +17,7 @@
   },
   "licenses": [
     {
-      "type": "MIT",
+      "type": "Unlicensed",
       "url": "https://github.com/alanclarke/int-encoder/blob/master/LICENSE-MIT"
     }
   ],
@@ -26,13 +26,13 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "node_modules/.bin/nodeunit test/int-encoder_test.js"
   },
-  "dependencies":{
-     "bignum":"*"
+  "dependencies": {
+    "bignum": "*"
   },
   "devDependencies": {
-    "grunt": "~0.3.11"
+    "nodeunit": "^0.9.1"
   },
   "keywords": []
 }

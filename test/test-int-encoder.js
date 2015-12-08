@@ -1,6 +1,6 @@
-var intEncoder = require('../lib/int-encoder.js')
+var intEncoder = require('../lib/int-encoder')
 intEncoder.alphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
-exports['encode'] = {
+exports.encode = {
   encoder: function (test) {
     var hex = 'e6c6b53d3c8160b22dad35a0f705ec09'
     var values = [0, 1, 2, 3, 62, 100, 1000, 354324523453245]

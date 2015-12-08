@@ -22,13 +22,14 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "nodeunit test/int-encoder_test.js"
+    "test": "node_modules/.bin/standard && node_modules/.bin/nodeunit test/int-encoder_test.js"
   },
   "dependencies": {
     "bignum": "^0.11.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.1"
+    "nodeunit": "^0.9.1",
+    "standard": "^5.4.1"
   },
   "keywords": [],
   "directories": {

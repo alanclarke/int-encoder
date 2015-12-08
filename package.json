@@ -1,16 +1,12 @@
 {
   "name": "int-encoder",
   "description": "a simple utitlity to encode and decode ints from a predefined alphabet",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "homepage": "https://github.com/alanclarke/int-encoder",
-  "author": {
-    "name": "alan clarke",
-    "email": "hi@alz.so",
-    "url": "alz.so"
-  },
+  "author": "alan clarke <hi@alz.so> (alz.so)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alanclarke/int-encoder.git"
+    "url": "git+https://github.com/alanclarke/int-encoder.git"
   },
   "bugs": {
     "url": "https://github.com/alanclarke/int-encoder/issues"
@@ -26,13 +22,17 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/nodeunit test/int-encoder_test.js"
+    "test": "nodeunit test/int-encoder_test.js"
   },
   "dependencies": {
-    "bignum": "*"
+    "bignum": "^0.11.0"
   },
   "devDependencies": {
     "nodeunit": "^0.9.1"
   },
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "test": "test"
+  },
+  "license": "UNLICENSED"
 }

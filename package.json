@@ -3,7 +3,7 @@
   "description": "a simple utitlity to encode and decode ints from a predefined alphabet",
   "version": "1.1.0",
   "homepage": "https://github.com/alanclarke/int-encoder",
-  "author": "alan clarke <hi@alz.so> (alz.so)",
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alanclarke/int-encoder.git"
@@ -22,7 +22,7 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/standard && node_modules/.bin/nodeunit test/test-int-encoder.js"
+    "test": "standard && node_modules/.bin/nodeunit test/test-int-encoder.js"
   },
   "dependencies": {
     "bignumber.js": "^2.4.0"
@@ -33,6 +33,7 @@
   },
   "keywords": [],
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "license": "UNLICENSED"
